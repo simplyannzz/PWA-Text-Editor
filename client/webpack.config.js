@@ -17,7 +17,7 @@ module.exports = () => {
     },
     plugins: [
       //Webpack to generates HTML files and inject nundles
-      newHtmlWebpackPlugin({
+      new HtmlWebpackPlugin({
         template: "./index.html",
         title: "Just another Text Editor",
       }),
