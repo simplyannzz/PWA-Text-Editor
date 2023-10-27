@@ -12,11 +12,11 @@ module.exports = () => {
       install: "./src/js/install.js",
     },
     output: {
-      filename: "[name}.bundle.js",
+      filename: "[name].bundle.js",
       path: path.resolve(_dirname, "dist"),
     },
     plugins: [
-      //Webpack to generates HTML files and inject nundles
+      //Webpack to generates HTML files and inject bundles
       new HtmlWebpackPlugin({
         template: "./index.html",
         title: "Just another Text Editor",
